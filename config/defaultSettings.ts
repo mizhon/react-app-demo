@@ -11,7 +11,7 @@ const proSettings: DefaultSettings = {
   layout: 'side',
   contentWidth: 'Fluid',
   fixedHeader: true,
-  fixSiderbar: true,
+  fixSiderbar: true, // 如果设置为false，则底部收起按钮消失
   colorWeak: false,
   menu: {
     locale: true,

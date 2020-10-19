@@ -6,6 +6,7 @@ import styles from './Welcome.less';
 const CodePreview: React.FC<{}> = ({ children }) => (
   <pre className={styles.pre}>
     <code>
+      {/* 参考：https://ant.design/components/typography-cn/ */}
       <Typography.Text copyable>{children}</Typography.Text>
     </code>
   </pre>
